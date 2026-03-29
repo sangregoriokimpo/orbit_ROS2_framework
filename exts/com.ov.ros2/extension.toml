@@ -1,0 +1,11 @@
+[package]
+title = "Orbit ROS2 Bridge"
+version = "0.1.0"
+description = "Thin ROS2 bridge for OrbitService. No GNC logic."
+
+[[python.module]]
+name = "com.ov.ros2"
+
+[dependencies]
+"isaacsim.ros2.bridge" = {}
+"com.ov.core" = {}
